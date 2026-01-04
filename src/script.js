@@ -27,7 +27,7 @@ function Calcular() {
 }
 function Volver() {
     r.textContent = "Calculadora De Descuentos";
-    o.style.width = "45vh";
+    o.style.width = "40vh";
     p.style.display = "";
     i.style.display = "";
     b.style.display = "";       
@@ -36,4 +36,4 @@ function Volver() {
     for (items of d) {
         items.style.display = "inline";
     }
-}
+}       
