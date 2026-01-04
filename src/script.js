@@ -8,8 +8,6 @@ let z;
 let t;
 
 function Calcular() {
-    r.textContent = "Precio Del producto con descuento";
-    o.style.width = "100vh";
     p.style.display = "none";
     i.style.display = "none";
     b.style.display = "none";
@@ -21,6 +19,8 @@ function Calcular() {
     t = document.createElement("button");
     z.textContent = result + "$";
     t.textContent = "Volver";
+    t.setAttribute('class', 'button_special');
+    o.classList.add = "o_a";    
     t.addEventListener("click", Volver);
     z.appendChild(t);
     o.appendChild(z);
@@ -28,9 +28,9 @@ function Calcular() {
 function Volver() {
     r.textContent = "Calculadora De Descuentos";
     o.style.width = "50vh";
-    p.style.display = "inline";
-    i.style.display = "inline";
-    b.style.display = "inline";
+    p.style.display = "";
+    i.style.display = "";
+    b.style.display = "";       
     z.remove();
     t.remove();
     for (items of d) {

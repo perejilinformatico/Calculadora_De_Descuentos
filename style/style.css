@@ -32,6 +32,15 @@ body {
     transform: scale(1.05);
 }
 
+.app_calculator.o_a {
+    width: 40vh;
+    height: 40vh;
+}
+
+.button_special {
+   margin: 10px;
+}
+
 input {
     border-radius: 10vh;
     width: 15vh;
